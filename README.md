@@ -4,15 +4,15 @@ This repository contains both the backend API and the frontend UI for the Wealth
 
 ## Repository Structure
 
-- **[FinanceTrackerApi](./FinanceTrackerApi/)**: Node.js & Express backend API.
-- **[FinanceTrackerFrontend](./FinanceTrackerFrontend/)**: React & Vite frontend UI.
+- **[WealthWaveApi](./WealthWaveApi/)**: Node.js & Express backend API.
+- **[WealthWaveUI](./WealthWaveUI/)**: React & Vite frontend UI.
 
 ## Getting Started
 
 ### Backend
-1. Navigate to `FinanceTrackerApi` directory:
+1. Navigate to `WealthWaveApi` directory:
    ```bash
-   cd FinanceTrackerApi
+   cd WealthWaveApi
    ```
 2. Install dependencies:
    ```bash
@@ -25,9 +25,9 @@ This repository contains both the backend API and the frontend UI for the Wealth
    ```
 
 ### Frontend
-1. Navigate to `FinanceTrackerFrontend` directory:
+1. Navigate to `WealthWaveUI` directory:
    ```bash
-   cd FinanceTrackerFrontend
+   cd WealthWaveUI
    ```
 2. Install dependencies:
    ```bash

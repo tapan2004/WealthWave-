@@ -25,8 +25,8 @@ Experience a smarter way to manage your wealth. This is a premium, feature-rich 
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/FinanceTrackerFrontend.git
-    cd FinanceTrackerFrontend
+    git clone https://github.com/tapan2004/WealthWave-.git
+    cd WealthWaveUI
     ```
 
 2.  **Install dependencies**:
@@ -39,7 +39,7 @@ Experience a smarter way to manage your wealth. This is a premium, feature-rich 
     npm run dev
     ```
 
-4.  **Connect to Backend**: Ensure your [FinanceTrackerApi](https://github.com/tapan2004/FinanceTrackerApi) is running locally on port 8080 (or your configured port).
+4.  **Connect to Backend**: Ensure your [WealthWaveApi](https://github.com/tapan2004/WealthWave-.git) is running locally on port 8080 (or your configured port).
 
 ## 📸 Screenshots
 *(Pro-tip: Add images here to showcase the beautiful UI!)*
