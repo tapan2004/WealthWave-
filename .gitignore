@@ -1,0 +1,9 @@
+# Root .gitignore for WealthWave Monorepo
+node_modules/
+dist/
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
