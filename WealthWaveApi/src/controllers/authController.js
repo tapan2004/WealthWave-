@@ -167,7 +167,7 @@ export const verify = async (req, res, next) => {
 // RESEND VERIFICATION
 export const resend = async (req, res, next) => {
   try {
-    const { email } = req.query;
+    const email = req.body.email || req.query.email;
 
     if (!email) {
       return res.status(400).json({ error: 'Email is required' });
@@ -209,7 +209,7 @@ export const resend = async (req, res, next) => {
 // FORGOT PASSWORD
 export const forgotPassword = async (req, res, next) => {
   try {
-    const { email } = req.query;
+    const email = req.body.email || req.query.email;
 
     if (!email) {
       return res.status(400).json({ error: 'Email is required' });
@@ -246,7 +246,8 @@ export const forgotPassword = async (req, res, next) => {
 // RESET PASSWORD
 export const resetPassword = async (req, res, next) => {
   try {
-    const { token, newPassword } = req.query;
+    const token = req.body.token || req.query.token;
+    const newPassword = req.body.newPassword || req.query.newPassword;
 
     if (!token || !newPassword) {
       return res.status(400).json({ error: 'Token and newPassword are required' });

@@ -17,6 +17,7 @@ const PORT = process.env.PORT || 8090;
 // Standard Middlewares
 app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 // Mount Routes
 app.use('/api', userRoutes);
